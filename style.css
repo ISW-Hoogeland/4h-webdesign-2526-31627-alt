@@ -1,9 +1,9 @@
 
 :root {
 	  
-	  --bg: #f5f7ff; 
+	  --bg: #e7e7e7; 
 	  --surface: #ffffff;
-	  --text: #0f1724; /* diep antraciet voor tekst */
+	  --text: #000000; /* diep antraciet voor tekst */
 	  --muted: #6b7280;
 	  --primary: #7c3aed; /* violet */
 	  --accent: #06b6d4; /* cyaan/turquoise accent */
@@ -65,7 +65,7 @@
 
 	nav a:hover,
 	nav a:focus {
-	  background: rgba(124,58,237,0.08); /* zachte hover gebaseerd op primary */
+	  background: rgb(0, 0, 0); /* zachte hover gebaseerd op primary */
 	  color: var(--header-grad-end);
 	}
 
