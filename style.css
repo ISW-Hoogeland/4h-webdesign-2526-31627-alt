@@ -3,10 +3,10 @@
 	  
 	  --bg: #e7e7e7; 
 	  --surface: #ffffff;
-	  --text: #000000; /* diep antraciet voor tekst */
+	  --text: #000000;
 	  --muted: #6b7280;
-	  --primary: #7c3aed; /* violet */
-	  --accent: #06b6d4; /* cyaan/turquoise accent */
+	  --primary: #7c3aed;
+	  --accent: #06b6d4; 
 	  --header-grad-start: #7c3aed;
 	  --header-grad-end: #2563eb;
 	  --footer-bg: #071029;
@@ -65,11 +65,11 @@
 
 	nav a:hover,
 	nav a:focus {
-	  background: rgb(0, 0, 0); /* zachte hover gebaseerd op primary */
+	  background: rgb(0, 0, 0); /
 	  color: var(--header-grad-end);
 	}
 
-	/* actieve link stijl */
+	
 	nav a.active {
 	  background: linear-gradient(90deg, rgba(124,58,237,0.12), rgba(37,99,235,0.06));
 	}
@@ -98,7 +98,7 @@
 	  header, nav, footer { padding-left: 1rem; padding-right: 1rem; }
 	}
 
-	/* Voetbal afbeelding styling */
+	
 	section.voetbal figure {
 	  margin: 1rem 0;
 	  background: var(--surface);
@@ -118,7 +118,7 @@
 
 	section.voetbal a { color: var(--primary); }
 
-	/* Ski afbeelding styling (zelfde look als voetbal) */
+	
 	section.ski figure {
 	  margin: 1rem 0;
 	  background: var(--surface);
